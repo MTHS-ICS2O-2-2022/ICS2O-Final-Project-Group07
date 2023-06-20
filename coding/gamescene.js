@@ -11,7 +11,7 @@
  */
 
 class GameScene extends Phaser.Scene {
-    // crate an alien
+    // crate an chicken
     createcar() {
       const carXLocation = Math.floor(Math.random() * 1920) + 1; // this will get a number between 1 and 1920;
       let carXVelocity = Math.floor(Math.random() * 50) + 1; // this will get a number between 1 and 50;
@@ -63,10 +63,10 @@ class GameScene extends Phaser.Scene {
       console.log("Game Scene");
   
       // images
-      this.load.image("car", "./assets/");
-      this.load.image("car2", "./assets/pacman-png-9.png");
-      this.load.image("car3", "./assets/");
-      this.load.image("chicken", "./assets/dots.png");
+      this.load.image("car", "./assets/cartoon-car-compact-car-model-car-lego-toy-block-vehicle-physical-model-red-png-clipart.png");
+      this.load.image("car2", "./assets/luxury-car-transparent-background-3d-rendering-illustration_494250-60554");
+      this.load.image("car3", "./assets/pngtree-ai-vector-cartoon-hand-drawn-children-s-kindergarten-building-block-car-png-image_4078501.png");
+      this.load.image("chicken", "./assets/11-112376_minecraft-chicken-transparent-hd-png-download.png");
       // sound
       this.load.audio("death", "./assets/death.wav");
     }
